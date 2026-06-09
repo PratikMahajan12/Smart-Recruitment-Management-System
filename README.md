@@ -1,9 +1,11 @@
 # Smart Recruitment Management System
 
 ## Project Overview
-Smart Recruitment Management System is a web-based application developed using J2EE, JSP, Servlets, JDBC, and MySQL. The system automates the recruitment process by allowing recruiters to post jobs, manage applicants, and schedule interviews, while candidates can search and apply for jobs online.
+
+Smart Recruitment Management System is a web-based application developed using Java, JSP, Servlets, JDBC, and MySQL. The system helps recruiters manage job postings and applications while allowing candidates to search and apply for jobs online.
 
 ## Technologies Used
+
 - Java (J2EE)
 - JSP
 - Servlets
@@ -15,38 +17,61 @@ Smart Recruitment Management System is a web-based application developed using J
 - Apache Tomcat
 
 ## Features
-- Candidate Registration and Login
-- Recruiter Registration and Login
-- Job Posting Management
-- Job Search and Application
-- Application Status Tracking
-- Interview Scheduling
-- Applicant Management
-- Secure Database Connectivity
 
-## Architecture
+- Candidate Registration
+- Candidate Login
+- Recruiter Login
+- Job Posting Management
+- Job Search
+- Job Application
+- Application Status Tracking
+- Applicant Management
+- Interview Scheduling
+
+## System Architecture
+
 MVC Architecture
 
-Presentation Layer (JSP)
+JSP (View)
 ↓
-Controller Layer (Servlets)
+Servlets (Controller)
 ↓
-Data Access Layer (JDBC)
+JDBC (Data Access)
 ↓
 MySQL Database
 
 ## Database Tables
-- Candidates
-- Recruiters
-- Jobs
-- Applications
-- Interviews
+
+- Candidate
+- Recruiter
+- Job
+- Application
+- Interview
+
+## Project Workflow
+
+1. Recruiter logs in.
+2. Recruiter creates job postings.
+3. Candidates register and log in.
+4. Candidates search and apply for jobs.
+5. Recruiter reviews applications.
+6. Interviews are scheduled.
+7. Candidate is selected or rejected.
+
+## Software Requirements
+
+- Java 8 or above
+- Apache Tomcat
+- MySQL
+- Eclipse IDE
 
 ## Future Enhancements
-- Email Notifications
+
 - Resume Upload
+- Email Notifications
 - Admin Dashboard
 - Analytics Reports
 
 ## Author
+
 Pratik Mahajan
